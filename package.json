@@ -1,0 +1,32 @@
+{
+  "name": "electron-practice",
+  "version": "1.0.0",
+  "description": "electron practice",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasum/electron-practice.git"
+  },
+  "keywords": [
+    "ekectron"
+  ],
+  "author": "nasum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasum/electron-practice/issues"
+  },
+  "homepage": "https://github.com/nasum/electron-practice#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "redux": "^3.5.2",
+    "typings": "^0.8.1"
+  }
+}

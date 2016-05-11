@@ -1,0 +1,10 @@
+{
+  "name": "electron-practice",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "github-electron": "registry:dt/github-electron#0.37.8+20160509083739",
+    "react": "registry:dt/react#0.14.0+20160423065914",
+    "redux": "registry:dt/redux#3.3.1+20160326112656"
+  }
+}

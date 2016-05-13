@@ -2,9 +2,9 @@
   "name": "electron-practice",
   "version": "1.0.0",
   "description": "electron practice",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
-    "start": "electron ./app/js/main/main.js",
+    "start": "electron ./app/main.js",
     "typings": "typings install",
     "watch": "tsc -w",
     "build": "tsc",
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/nasum/electron-practice#readme",
   "devDependencies": {
-    "electron-packager": "^7.0.1",
     "electron-prebuilt": "^1.0.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10"

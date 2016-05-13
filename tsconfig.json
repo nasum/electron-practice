@@ -3,11 +3,13 @@
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "outDir": "built",
-        "rootDir": ".",
-        "sourceMap": true
+        "outDir": "app/js",
+        "rootDir": "src/ts",
+        "sourceMap": false
     },
     "exclude": [
+        "typings/main.d.ts",
+        "typings/main",
         "node_modules"
     ]
 }

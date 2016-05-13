@@ -31,3 +31,8 @@ node_modules
 
 # Typings
 typings
+
+# app src
+app/js/**/*.js
+app/js/**/*.js.map
+app/css/**/*.css

@@ -5,11 +5,13 @@
         "noImplicitAny": false,
         "outDir": "app",
         "rootDir": "src/ts",
-        "sourceMap": false
+        "sourceMap": false,
+        "jsx": "react"
     },
     "exclude": [
         "typings/main.d.ts",
         "typings/main",
         "node_modules"
-    ]
+    ],
+    "compileOnSave": false
 }

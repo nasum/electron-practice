@@ -25,7 +25,7 @@ class Application {
             acceptFirstMouse: true,
             titleBarStyle: 'hidden'
         });
-        console.log(__dirname);
+        this.mainWindow.webContents.openDevTools();
         this.mainWindow.loadURL('file://' + __dirname + '/index.html');
 
         this.mainWindow.on('closed', () => {

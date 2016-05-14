@@ -6,8 +6,8 @@
   "scripts": {
     "start": "electron ./app/main.js",
     "typings": "typings install",
-    "watch": "tsc -w",
-    "build": "tsc",
+    "build:watch": "webpack -w",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,13 +24,17 @@
   },
   "homepage": "https://github.com/nasum/electron-practice#readme",
   "devDependencies": {
+    "devtron": "^1.1.0",
     "electron-prebuilt": "^1.0.1",
     "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10"
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1",
+    "webpack": "^1.13.0"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "react": "^15.0.2",
-    "redux": "^3.5.2",
-    "typings": "^0.8.1"
+    "react-dom": "^15.0.2",
+    "redux": "^3.5.2"
   }
 }

@@ -33,6 +33,6 @@ node_modules
 typings
 
 # app src
-app/js/**/*.js
-app/js/**/*.js.map
+app/**/*.js
+app/**/*.js.map
 app/css/**/*.css

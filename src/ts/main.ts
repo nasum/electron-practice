@@ -2,7 +2,7 @@ const electron = require('electron');
 const BrowserWindow: typeof Electron.BrowserWindow = electron.BrowserWindow;
 const app: Electron.App = electron.app;
 
-class MyApplication {
+class Application {
     mainWindow: Electron.BrowserWindow = null;
 
     constructor(public app: Electron.App){
@@ -34,4 +34,4 @@ class MyApplication {
     }
 }
 
-const myapp = new MyApplication(app);
+const myapp = new Application(app);

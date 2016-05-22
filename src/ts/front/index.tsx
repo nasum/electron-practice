@@ -1,16 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import AppRoot from './components/app_root';
 
-class App extends React.Component<{}, {}> {
-  render(){
-    return (
-        <div>
-          testtesttest
-        </div>
-    );
-  }
-}
 ReactDOM.render(
-  <App />,
+  <AppRoot />,
   document.getElementsByClassName('todo')[0]
 );

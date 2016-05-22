@@ -22,8 +22,7 @@ class Application {
             height: 400,
             minWidth: 500,
             minHeight: 200,
-            acceptFirstMouse: true,
-            titleBarStyle: 'hidden'
+            acceptFirstMouse: true
         });
         this.mainWindow.webContents.openDevTools();
         this.mainWindow.loadURL('file://' + __dirname + '/index.html');
